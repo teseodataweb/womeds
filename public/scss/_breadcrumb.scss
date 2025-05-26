@@ -1,0 +1,39 @@
+/* page-title */
+.page_header_bg{
+    background: url(../img/page/ports.png);
+    background-repeat: no-repeat;
+
+    width: 100%;
+}
+ .breadcrumb-bg {
+     background-size: cover;
+     background-position: center center;
+}
+ .small-text {
+     color: #647589;
+     font-size: 18px;
+     font-weight: 500;
+}
+ .page-title h1 {
+     font-size: 60px;
+     color: #fff;
+}
+ .page-height {
+     min-height: 500px;
+}
+ .page-breadcumb nav ol {
+     background: 0;
+     padding: 0;
+     margin: 0;
+}
+ .page-breadcumb .breadcrumb-item a {
+     color: #95a3b3;
+     font-weight: 500;
+}
+ .page-breadcumb .breadcrumb-item.active {
+     font-weight: 500;
+     color: rgb(191, 118, 255);
+}
+ .page-breadcumb .breadcrumb-item + .breadcrumb-item::before {
+     content: "|";
+}
