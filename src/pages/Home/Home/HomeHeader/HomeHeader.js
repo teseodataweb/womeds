@@ -17,7 +17,7 @@ const HomeHeader = () => {
                      <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
                         <div className="header-info">
                            <span><i className="fas fa-phone"></i> +52 1 771 197 9737</span>
-                           <span><i className="fas fa-envelope"></i> womeds@info.com</span>
+                           <span><i className="fas fa-envelope"></i>contacto@clinicawomeds.com</span>
 
                            <div className='header-social-icons f-right d-none d-xl-block'>
                               <ul>

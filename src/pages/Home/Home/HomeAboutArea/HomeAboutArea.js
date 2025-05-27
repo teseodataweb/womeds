@@ -12,7 +12,7 @@ const HomeAboutArea = () => {
                      </div>
                      <div className="about-left-side pos-rel mb-30">
                         <div className="about-front-img">
-                           <img src="img/about/about.jpg" alt=""/>
+                           <img src="img/newPhotos/index/acercaDe/enfermeras.webp" alt=""/>
                         </div>
                         <div className="about-shape">
                            <img src="img/about/about-shape.png" alt=""/>

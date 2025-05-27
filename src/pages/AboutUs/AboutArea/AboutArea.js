@@ -13,7 +13,7 @@ const AboutArea = () => {
          <CommonSectionArea area_header={
             <div className="about-left-side pos-rel mb-30">
                <div className="about-front-img pos-rel">
-                  <img src="img/about/about.jpg" alt="" />
+                  <img src="img/newPhotos/acercaDe/acercaDe/doctores.webp" alt="" />
                   {/* <button onClick={() => setOpen(true)} className="popup-video about-video-btn white-video-btn">
                      <i className="fas fa-play"></i></button> */}
                </div>

@@ -28,11 +28,11 @@ const HomeOurTeam = () => {
                      </div>
                   </div>
                </div>
-               <div className="row">
+               <div className="row centerObject">
 
-                  <HomeSingleTeam image="2" title="Ximena Guadalupe Pérez Cruz" subtitle="Lic. Terapia Física." />
+                  {/* <HomeSingleTeam image="2" title="Ximena Guadalupe Pérez Cruz" subtitle="Lic. Terapia Física." /> */}
                   <HomeSingleTeam image="1" title="Roberto Martínez García" subtitle="Dr. Medico cirujano."/>
-                  <HomeSingleTeam image="3" title="Rocio Arlem Barrera Vazquez" subtitle="Lic. Terapia Física." />
+                  {/* <HomeSingleTeam image="3" title="Rocio Arlem Barrera Vazquez" subtitle="Lic. Terapia Física." /> */}
                   
 
                </div>
