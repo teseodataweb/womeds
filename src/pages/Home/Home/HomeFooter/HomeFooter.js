@@ -4,91 +4,51 @@ import { Link } from "react-router-dom";
 const HomeFooter = () => {
   return (
     <>
-      <footer>
-        <div className="footer-top primary-bg pt-230 pb-180">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-5 col-lg-6 col-md-8">
-                <div className="footer-contact-info mb-30">
-                  <div className="emmergency-call fix">
-                    <div className="emmergency-call-icon f-left">
-                      <i className="fas fa-phone"></i>
-                    </div>
-                    <div className="emmergency-call-text f-left">
-                      <h6>Llama ahora</h6>
-                      <span>+52 1 771 197 9737</span>
-                    </div>
-                  </div>
-                  <div className="footer-logo mb-35">
-                    <Link to="/">
-                      <img src="img/logo/footer-logo.png" alt="" />
-                    </Link>
-                  </div>
-                  <div className="footer-contact-content mb-25">
-                    <p>
-                      Visitanos en Camino Real de la Plata #200, Interior 4,
-                      Zona Plateada, Pachuca de Soto, Hidalgo, México
-                    </p>
-                  </div>
-                  <div className="footer-emailing">
-                    <ul>
-                      <li>
-                        <i className="far fa-envelope"></i>womeds@info.com
-                      </li>
-                      <li>
-                        <i className="far fa-flag"></i>Camino Real de la Plata
-                        #200, Interior 4, Zona Plateada, Pachuca de Soto,
-                        Hidalgo, México
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
-                <div className="footer-widget mb-30">
-                  <div className="footer-title">
-                    <h3>Contacto</h3>
-                  </div>
-                  <div className="footer-menu">
-                    <ul>
-                      {/* <li>CEO: Vanessa Martínez</li> */}
-                      {/* <li>Phone USA: 929 693 1556</li> */}
-                      <li>Telefono: +52 1 771 197 9737</li>
-                      <li></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/* <div className="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
-                                <div className="footer-widget mb-30">
-                                    <div className="footer-title">
-                                        <h3>Enlaces Rapidos</h3>
-                                    </div>
-                                    <div className="footer-menu">
-                                        <ul>
-                                            <li><Link to="/servicesDetails">Departments</Link></li>
-                                            <li><Link to="/doctors">Our Doctors</Link></li>
-                                            <li><Link to="/blogs">News</Link></li>
-                                            <li><Link to="/shop">Shop</Link></li>
-                                            <li><Link to="/contact">Contact Us</Link></li>
-                                            <li><Link to="/contact">Book an Appointment</Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div> */}
+      <footer className="footer-modern">
+        <div className="container">
+          <div className="row align-items-center py-5">
+            <div className="col-md-4 text-center text-md-left mb-4 mb-md-0">
+              <img
+                src="img/logo/footer-logo.png"
+                alt="Logo"
+                className="footer-logo mb-2"
+              />
+              <p className="footer-desc">
+                Clínica estética en Pachuca. Bienestar y belleza con tecnología
+                avanzada.
+              </p>
+            </div>
+            <div className="col-md-4 text-center mb-4 mb-md-0">
+              <h5>Contacto</h5>
+              <p>
+                <i className="fas fa-phone"></i> +52 1 771 197 9737
+              </p>
+              <p>
+                <i className="far fa-envelope"></i> womeds@info.com
+              </p>
+              <p>
+                <i className="far fa-flag"></i> Camino Real de la Plata #200,
+                Interior 4, Pachuca
+              </p>
+            </div>
+            <div className="col-md-4 text-center text-md-right">
+              <h5>Síguenos</h5>
+              <a href="#" className="footer-social mx-2">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" className="footer-social mx-2">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="#" className="footer-social mx-2">
+                <i className="fab fa-whatsapp"></i>
+              </a>
             </div>
           </div>
-        </div>
-        <div className="footer-bottom pt-25 pb-20">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="footer-copyright text-center">
-                  <p className="black-color">
-                    Todos los Derechos Reservados {new Date().getFullYear()} Womeds
-                  </p>
-                </div>
-              </div>
+          <div className="row">
+            <div className="col-12 text-center mt-3">
+              <small>
+                Todos los Derechos Reservados {new Date().getFullYear()} Womeds
+              </small>
             </div>
           </div>
         </div>

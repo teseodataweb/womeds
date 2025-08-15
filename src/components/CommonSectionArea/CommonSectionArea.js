@@ -26,7 +26,7 @@ const CommonSectionArea = ({area_header}) => {
                         <div className="our-destination">
                            <div className="single-item mb-30">
                               <div className="mv-icon f-left">
-                                 <img src="img/about/destination-icon-1.png" alt=""/>
+                                 <img src="img/newPhotos/acercaDe/iconos/mision.svg" alt=""/>
                               </div>
                               <div className="mv-title fix">
                                  <h3>Nuestra Misión</h3>
@@ -36,7 +36,7 @@ const CommonSectionArea = ({area_header}) => {
                            </div>
                            <div className="single-item">
                               <div className="mv-icon f-left">
-                                 <img src="img/about/destination-icon-2.png" alt=""/>
+                                 <img src="img/newPhotos/acercaDe/iconos/vision.svg" alt=""/>
                               </div>
                               <div className="mv-title fix">
                                  <h3>Nuestra Visión</h3>
