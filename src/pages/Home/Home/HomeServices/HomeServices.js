@@ -23,14 +23,11 @@ const HomeServices = () => {
                   </div>
                </div>
                <div className="row">
-
-                  <HomeSIngleService icon="1" title="Depilación Láser" descripcion="Olvídate del vello no deseado con nuestros tratamientos de depilación láser. Eficaz, seguro y duradero, ideal para todas las áreas del cuerpo." />
-                  <HomeSIngleService icon="4" title="Masajes relajantes y descontracturantes" descripcion="Relájate y revitalízate con nuestros masajes relajantes y descontracturantes. Ideales para aliviar el estrés y mejorar tu bienestar físico y mental."/>
-                  <HomeSIngleService icon="3" title="Eliminación de Tatuajes" descripcion="Utilizando la tecnología Alma láser, ofrecemos eliminación de tatuajes de manera efectiva y segura, devolviéndote la piel natural que deseas."/>
-                  <HomeSIngleService icon="2" title="Tratamientos Faciales Personalizados" descripcion="Descubre nuestros tratamientos faciales personalizados que incluyen hidratación, limpieza profunda y rejuvenecimiento, adaptados a las necesidades específicas de tu piel."/>
-                  <HomeSIngleService icon="5" title="Procedimientos con Ácido Hialurónico" descripcion="Realza tu belleza con nuestros procedimientos de perfilado nasal y rellenos con ácido hialurónico, diseñados para ofrecerte un aspecto fresco y rejuvenecido."/>
-                  {/* <HomeSIngleService icon="6" title="Personalización de Cremas (Cremology)" descripcion="Experimenta un cuidado de la piel único con nuestro servicio de personalización de cremas. Cremology combina ingredientes de alta calidad para crear una crema perfecta para tus necesidades."/> */}
-
+                  <HomeSIngleService icon="fa-solid fa-bolt-lightning" title="Depilación Láser" descripcion="Olvídate del vello no deseado con nuestros tratamientos de depilación láser. Eficaz, seguro y duradero, ideal para todas las áreas del cuerpo." />
+                  <HomeSIngleService icon="fa-solid fa-spa" title="Masajes relajantes y descontracturantes" descripcion="Relájate y revitalízate con nuestros masajes relajantes y descontracturantes. Ideales para aliviar el estrés y mejorar tu bienestar físico y mental."/>
+                  <HomeSIngleService icon="fa-solid fa-eraser" title="Eliminación de Tatuajes" descripcion="Utilizando la tecnología Alma láser, ofrecemos eliminación de tatuajes de manera efectiva y segura, devolviéndote la piel natural que deseas."/>
+                  <HomeSIngleService icon="fa-solid fa-face-smile-beam" title="Tratamientos Faciales Personalizados" descripcion="Descubre nuestros tratamientos faciales personalizados que incluyen hidratación, limpieza profunda y rejuvenecimiento, adaptados a las necesidades específicas de tu piel."/>
+                  <HomeSIngleService icon="fa-solid fa-syringe" title="Procedimientos con Ácido Hialurónico" descripcion="Realza tu belleza con nuestros procedimientos de perfilado nasal y rellenos con ácido hialurónico, diseñados para ofrecerte un aspecto fresco y rejuvenecido."/>
                </div>
             </div>
          </section>

@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import 'react-image-lightbox/style.css';
 import './index.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 ReactDOM.render(
   <React.Fragment>
