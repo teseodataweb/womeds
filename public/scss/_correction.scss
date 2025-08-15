@@ -285,7 +285,7 @@ button[type="submit"]:hover {
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px auto;
-  background: #e3d6f7;
+  background: var(--rosa);
   border-radius: 50%;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
   transition: background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -293,17 +293,17 @@ button[type="submit"]:hover {
 
 .hero .service-thumb i {
   font-size: 5rem;
-  color: #8d6fd1; /* Cambia este color para el icono */
+  color: #fff; /* Cambia este color para el icono */
   transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero .service-thumb:hover {
-  background: #8d6fd1;
+  background: var(--morado);
 }
 
-.hero .service-thumb:hover i {
-  color: #e3d6f7; /* Cambia este color para el icono */
-}
+// .hero .service-thumb:hover i {
+//   color: var(--gris);
+// }
 
 // Hover en seleccion
 .service-box {
