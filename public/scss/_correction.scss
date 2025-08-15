@@ -57,6 +57,9 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --rosa: #c36df5;
+  --morado: #8c55a6;
+  --gris: #82766d;
 }
 
 // Hero index
@@ -117,10 +120,86 @@
   color: #fff;
 }
 
+.about-title h4,
+.section-text.pos-rel.home_ser_title h2,
+.service-content h3,
+.footer-modern h5,
+.section-text.section-text-small.pos-rel h1,
+.single-couter h1,
+.page-breadcumb .breadcrumb-item.active,
+.rosa {
+  color: var(--rosa);
+}
+
+.team-content h6,
+.section-text.pos-rel .morado,
+.single-satisfied.mb-50 h5,
+a:focus,
+.morado {
+  color: var(--morado);
+}
+
+.hero-text.position-relative.paddingTopHero p {
+  color: var(--morado);
+}
+
+.page-breadcumb .breadcrumb-item a {
+  color: #fff;
+}
+
+.col-md-4.text-center.text-md-right a:hover {
+  color: var(--morado);
+}
+
+.header__menu ul li a:hover {
+  color: var(--morado);
+}
+
+.header__menu ul li ul.submenu li a:hover {
+  color: var(--morado);
+}
+
+.header-social-icons ul li a:hover {
+  color: var(--morado);
+}
+
+// color iconos check
+.professinals-list li i {
+    color: var(--morado);
+    border-color: var(--morado);
+}
+
+.professinals-list li:hover i {
+    background-color: var(--morado);
+}
+
+// Color botones
+.btn-icon {
+  color: #fff;
+    background-color: var(--rosa);
+    box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+}
+.btn-icon:hover {
+    background-color: var(--morado);
+    color: #fff;
+}
+.primary_btn {
+    background: var(--rosa);
+    color: #fff;
+}
+.primary_btn {
+    background: var(--rosa);
+    color: #fff;
+}
+.primary_btn:hover {
+    background: var(--morado);
+    color: #fff;
+}
+
 // Estilos para formulario de contacto
 .form-area {
   background-color: #f7f7f7;
-  color: #333;
+  color: var(--morado);
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   border: 1px solid #ddd;
@@ -136,7 +215,7 @@
 label {
   font-weight: bold;
   margin-bottom: 10px;
-  color: #666;
+  color: var(--gris);
 }
 
 input,
@@ -153,24 +232,24 @@ input[type="text"],
 input[type="email"],
 input[type="tel"] {
   background-color: #fff;
-  color: #333;
+  color: var(--morado);
 }
 
 select {
   background-color: #fff;
-  color: #333;
+  color: var(--morado);
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus {
-  border-color: #4caf50;
+  border-color: var(--morado);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 button[type="submit"] {
-  background-color: #4caf50;
+  background-color: var(--rosa);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -180,7 +259,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: var(--morado);
 }
 
 .required {
@@ -199,40 +278,49 @@ button[type="submit"]:hover {
 }
 
 // iconos en home
-.service-thumb {
+.hero .service-thumb {
   width: 250px;
   height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 24px auto;
-  background: #e3d6f7; /* Cambia este color si quieres otro fondo */
+  background: #e3d6f7;
   border-radius: 50%;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
   transition: background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.service-thumb i {
+.hero .service-thumb i {
   font-size: 5rem;
   color: #8d6fd1; /* Cambia este color para el icono */
   transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.service-thumb:hover {
+.hero .service-thumb:hover {
   background: #8d6fd1;
 }
 
-.service-thumb:hover i {
+.hero .service-thumb:hover i {
   color: #e3d6f7; /* Cambia este color para el icono */
 }
 
 // Hover en seleccion
+.service-box {
+  border: 1px solid #8d6fd1;
+}
 .service-box:hover {
+  border-color: #fff;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 16px 32px 0px rgba(141, 111, 209, 0.5);
 }
 
 // hover en titulos
 .service-box .service-content h3 a:hover {
-  color: #8d6fd1;
+  color: var(--morado);
+}
+
+// correccion de altura de cajas de servicios
+.service-box {
+  height: 95%;
 }

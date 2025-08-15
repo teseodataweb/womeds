@@ -18,7 +18,7 @@ const DoctorOneTeamArea = () => {
                   />
                 </div>
                 <div className="section-text pos-rel">
-                  <h5>Nuestro Equipo</h5>
+                  <h5 className="morado">Nuestro Equipo</h5>
                   <h1>Profesionales Dedicados a tu Cuidado y Bienestar</h1>
                 </div>
                 <div className="section-line pos-rel">

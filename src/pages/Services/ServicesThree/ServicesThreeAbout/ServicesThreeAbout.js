@@ -49,7 +49,7 @@ const ServicesThreeAbout = () => {
                         <div className="service-content">
                            <h3>RADIOFRECUENCIA CORPORAL</h3>
                            <p>Elimina la flacidez de la piel.</p>
-                           <h5>Después de una cirugía: </h5>
+                           <h5 className='rosa'>Después de una cirugía: </h5>
                            <li>- Consigue reactivar la circulación, mejora el drenaje linfático y estimula la creación de nuevo colágeno</li>
                         </div>
                      </div>
@@ -63,7 +63,7 @@ const ServicesThreeAbout = () => {
                         <div className="service-content">
                            <h3>ACCENT CORPORAL</h3>
                            <p>Con tecnología Accent es posible tratar la flacidez de distintas partes del cuerpo, producto de la edad, embarazos y la pérdida o ganancia repentina de peso.</p>
-                           <h5>Pueden tratarse:</h5>
+                           <h5 className='rosa'>Pueden tratarse:</h5>
                            <li>- Abdomen</li>
                            <li>- Brazos</li>
                            <li>- Cintura</li>

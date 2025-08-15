@@ -64,7 +64,7 @@ const ServicesTwoTwoAbout = () => {
                         <div className="service-content">
                            <h3>E-LIGHT</h3>
                            <p>Sistema basado en una combinación de dos tipos diferentes de energía: la energía de luz y radiofrecuencia para obtener óptimos resultados.</p>
-                           <h5>Tratamiento ideal para:</h5>
+                           <h5 className='rosa'>Tratamiento ideal para:</h5>
                            <li>- Acné</li>
                            <li>- Vascular/Rosácea</li>
                            <li>- Despigmentante</li>

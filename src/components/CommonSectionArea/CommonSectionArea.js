@@ -12,7 +12,7 @@ const CommonSectionArea = ({area_header}) => {
                   <div className="col-xl-6 col-lg-7">
                      <div className="about-right-side pt-55 mb-30">
                         <div className="about-title mb-20">
-                           <h5>Acerca de</h5>
+                           <h5 className='morado'>Acerca de</h5>
                            <h1>Estamos aquí para tu cuidado.</h1>
                         </div>
                         <div className="about-text mb-50">
@@ -29,7 +29,7 @@ const CommonSectionArea = ({area_header}) => {
                                  <img src="img/newPhotos/acercaDe/iconos/mision.svg" alt=""/>
                               </div>
                               <div className="mv-title fix">
-                                 <h3>Nuestra Misión</h3>
+                                 <h3 className='rosa'>Nuestra Misión</h3>
                                  <p>Proporcionar a nuestros pacientes una experiencia satisfactoria mediante un enfoque integral 
                                     en su salud y bienestar estético, utilizando tecnología avanzada y productos de alta calidad.</p>
                               </div>
@@ -39,7 +39,7 @@ const CommonSectionArea = ({area_header}) => {
                                  <img src="img/newPhotos/acercaDe/iconos/vision.svg" alt=""/>
                               </div>
                               <div className="mv-title fix">
-                                 <h3>Nuestra Visión</h3>
+                                 <h3 className='rosa'>Nuestra Visión</h3>
                                  <p>Ser la clínica líder en medicina estética en Pachuca, reconocida por nuestra excelencia en servicios
                                     y el compromiso con el bienestar integral de nuestros pacientes.</p>
                               </div>

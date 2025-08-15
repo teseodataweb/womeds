@@ -12,7 +12,7 @@ const AboutTestimonial = () => {
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>Opiniones</h5>
+                           <h5 className='morado'>Opiniones</h5>
                            <h1>Nuestros Clientes Opinan Acerca de Nosotros</h1>
                         </div>
                         <div className="section-line pos-rel">

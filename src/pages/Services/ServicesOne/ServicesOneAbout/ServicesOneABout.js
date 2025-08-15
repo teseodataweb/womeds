@@ -22,9 +22,9 @@ const ServicesOneABout = () => {
                   </div>
                </div>
                <div className="row">
-                  <HomeSIngleService icon="fa-solid fa-syringe" title="TOXINA BOTULÍNICA" border_className="service-box-border" descripcion="Es una sustancia que tiene la capacidad de producir parálisis muscular. Minimiza los surcos y arrugas de expresión." />
-                  <HomeSIngleService icon="fa-solid fa-vial" style=".icon{height:200px}" title="RELLENO CON ÁCIDO HIALURÓNICO" border_className="service-box-border" descripcion="El ácido hialurónico es principalmente para suavizar o rellenar las arrugas, mejorar cicatrices, redefinir el contorno de la cara, aumentar o corregir los labios, rejuvenecimiento de las manos." />
-                  <HomeSIngleService icon="fa-solid fa-face-smile-beam" title="RINOMODELACIÓN" border_className="service-box-border" descripcion="Es un tratamiento que se realiza con ácido hialurónico, con la finalidad de corregir, armonizar y embellecer la forma de la nariz. '<img>'" />
+                  <HomeSIngleService icon="11" title="TOXINA BOTULÍNICA" border_className="service-box-border" descripcion="Es una sustancia que tiene la capacidad de producir parálisis muscular. Minimiza los surcos y arrugas de expresión." />
+                  <HomeSIngleService icon="12" style=".icon{height:200px}" title="RELLENO CON ÁCIDO HIALURÓNICO" border_className="service-box-border" descripcion="El ácido hialurónico es principalmente para suavizar o rellenar las arrugas, mejorar cicatrices, redefinir el contorno de la cara, aumentar o corregir los labios, rejuvenecimiento de las manos." />
+                  <HomeSIngleService icon="13" title="RINOMODELACIÓN" border_className="service-box-border" descripcion="Es un tratamiento que se realiza con ácido hialurónico, con la finalidad de corregir, armonizar y embellecer la forma de la nariz. '<img>'" />
                   <div className="col-xl-4 col-lg-6 col-md-6">
                      <div className='service-box text-center mb-40'>
                         <div className="service-thumb">
@@ -95,8 +95,8 @@ const ServicesOneABout = () => {
                         <div className="service-content">
                            <h3>TRATAMIENTO CAPILAR</h3>
                            <p>Es un tratamiento coreano e innovador en el campo de la medicina estética, mediante micro inyecciones que estimulan la microcirculación en el cuero cabelludo y revitalizan los folículos capilares degenerados.</p>
-                           <h5> - Dirigido a pacientes con alopecia, excesiva caída de cabello, pacientes con cabello muy fino y debilitado.</h5>
-                           <h5>Beneficios:</h5>
+                           <h6> - Dirigido a pacientes con alopecia, excesiva caída de cabello, pacientes con cabello muy fino y debilitado.</h6>
+                           <h5 className='rosa'>Beneficios:</h5>
                            <li>- Detiene la caída del cabello</li>
                            <li>- Estimula la circulación sanguínea en el cuero cabelludo</li>
                            <li>- Revitalización de los folículos pilosos</li>

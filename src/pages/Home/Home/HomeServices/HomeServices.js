@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeSIngleService from '../../../../components/HomeSIngleService/HomeSIngleService';
+import HomeSIngleService from './HomeSIngleService';
 
 const HomeServices = () => {
    return (
       <>
-         <section className="servcies-area gray-bg pt-115 pb-90">
+         <section className="servcies-area gray-bg pt-115 pb-90 hero">
             <div className="container">
                <div className="row">
                   <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">

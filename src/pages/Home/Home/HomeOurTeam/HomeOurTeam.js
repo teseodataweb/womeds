@@ -14,7 +14,7 @@ const HomeOurTeam = () => {
                            <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>Nuestro Equipo</h5>
+                           <h5 className="morado">Nuestro Equipo</h5>
                            <h2>Profesionales Dedicados a tu Cuidado y Bienestar</h2>
                         </div>
                         <div className="section-line pos-rel">
