@@ -14,7 +14,7 @@ const ContactArea = () => {
               <div className="contact text-center mb-30">
                 <i className="fas fa-envelope"></i>
                 <h3>Womeds Email</h3>
-                <p>womeds@info.com</p>
+                <p>contacto@clinicawomeds.com</p>
               </div>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4">
@@ -41,6 +41,7 @@ const ContactArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12">
+              <h2 className="text-center mb-4">Contáctanos</h2>
               <form>
                 <div className="form-group">
                   <label>

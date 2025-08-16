@@ -24,7 +24,7 @@ const HomeFooter = () => {
                 <i className="fas fa-phone"></i> +52 1 771 197 9737
               </p>
               <p>
-                <i className="far fa-envelope"></i> womeds@info.com
+                <i className="far fa-envelope"></i> contacto@clinicawomeds.com
               </p>
               <p>
                 <i className="far fa-flag"></i> Camino Real de la Plata #200,
@@ -39,7 +39,13 @@ const HomeFooter = () => {
               <a href="#" className="footer-social mx-2">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" className="footer-social mx-2">
+              <a
+                href="https://wa.me/5217711979737"
+                className="footer-social mx-2"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+              >
                 <i className="fab fa-whatsapp"></i>
               </a>
             </div>
